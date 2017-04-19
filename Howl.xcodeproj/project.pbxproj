@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B271C25A1EA6C323007956E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271C2591EA6C323007956E0 /* AppDelegate.swift */; };
+		B271C25C1EA6C323007956E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271C25B1EA6C323007956E0 /* ViewController.swift */; };
+		B271C2611EA6C323007956E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B271C2601EA6C323007956E0 /* Assets.xcassets */; };
+		B271C2641EA6C323007956E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B271C2621EA6C323007956E0 /* LaunchScreen.storyboard */; };
+		B271C26F1EA6C323007956E0 /* HowlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271C26E1EA6C323007956E0 /* HowlTests.swift */; };
+		B271C27A1EA6C323007956E0 /* HowlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271C2791EA6C323007956E0 /* HowlUITests.swift */; };
+		B271C28A1EA6C401007956E0 /* SignUpFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271C2891EA6C401007956E0 /* SignUpFirstViewController.swift */; };
+		B271C28C1EA6C41E007956E0 /* SignUpSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271C28B1EA6C41E007956E0 /* SignUpSecondViewController.swift */; };
+		B271C28E1EA6C436007956E0 /* SignUpThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271C28D1EA6C436007956E0 /* SignUpThirdViewController.swift */; };
+		B271C2961EA6CE6E007956E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271C2951EA6CE6E007956E0 /* HomeViewController.swift */; };
+		B271C2981EA6CE7A007956E0 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271C2971EA6CE7A007956E0 /* NotificationViewController.swift */; };
+		B271C29A1EA6CE87007956E0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271C2991EA6CE87007956E0 /* AddViewController.swift */; };
+		B271C29C1EA6CE92007956E0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271C29B1EA6CE92007956E0 /* ChatViewController.swift */; };
+		B271C29E1EA6CE9C007956E0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271C29D1EA6CE9C007956E0 /* ProfileViewController.swift */; };
+		B271C2A01EA6CF1B007956E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B271C29F1EA6CF1B007956E0 /* Main.storyboard */; };
+		B271C2A21EA6D4B8007956E0 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271C2A11EA6D4B8007956E0 /* PostTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B271C26B1EA6C323007956E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B271C24E1EA6C323007956E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B271C2551EA6C323007956E0;
+			remoteInfo = Howl;
+		};
+		B271C2761EA6C323007956E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B271C24E1EA6C323007956E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B271C2551EA6C323007956E0;
+			remoteInfo = Howl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B271C2561EA6C323007956E0 /* Howl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Howl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B271C2591EA6C323007956E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B271C25B1EA6C323007956E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B271C2601EA6C323007956E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B271C2631EA6C323007956E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B271C2651EA6C323007956E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B271C26A1EA6C323007956E0 /* HowlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B271C26E1EA6C323007956E0 /* HowlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlTests.swift; sourceTree = "<group>"; };
+		B271C2701EA6C323007956E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B271C2751EA6C323007956E0 /* HowlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B271C2791EA6C323007956E0 /* HowlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlUITests.swift; sourceTree = "<group>"; };
+		B271C27B1EA6C323007956E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B271C2891EA6C401007956E0 /* SignUpFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpFirstViewController.swift; sourceTree = "<group>"; };
+		B271C28B1EA6C41E007956E0 /* SignUpSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpSecondViewController.swift; sourceTree = "<group>"; };
+		B271C28D1EA6C436007956E0 /* SignUpThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpThirdViewController.swift; sourceTree = "<group>"; };
+		B271C2951EA6CE6E007956E0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B271C2971EA6CE7A007956E0 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		B271C2991EA6CE87007956E0 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		B271C29B1EA6CE92007956E0 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B271C29D1EA6CE9C007956E0 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B271C29F1EA6CF1B007956E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B271C2A11EA6D4B8007956E0 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B271C2531EA6C323007956E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B271C2671EA6C323007956E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B271C2721EA6C323007956E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B271C24D1EA6C323007956E0 = {
+			isa = PBXGroup;
+			children = (
+				B271C2581EA6C323007956E0 /* Howl */,
+				B271C26D1EA6C323007956E0 /* HowlTests */,
+				B271C2781EA6C323007956E0 /* HowlUITests */,
+				B271C2571EA6C323007956E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B271C2571EA6C323007956E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B271C2561EA6C323007956E0 /* Howl.app */,
+				B271C26A1EA6C323007956E0 /* HowlTests.xctest */,
+				B271C2751EA6C323007956E0 /* HowlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B271C2581EA6C323007956E0 /* Howl */ = {
+			isa = PBXGroup;
+			children = (
+				B271C2941EA6CE56007956E0 /* Profile */,
+				B271C2931EA6CE14007956E0 /* Chat */,
+				B271C2921EA6CE0E007956E0 /* Add */,
+				B271C2911EA6CE06007956E0 /* Notification */,
+				B271C28F1EA6CDF0007956E0 /* Home */,
+				B271C2881EA6C3CF007956E0 /* Auth */,
+				B271C2591EA6C323007956E0 /* AppDelegate.swift */,
+				B271C2871EA6C3C7007956E0 /* Models */,
+				B271C25B1EA6C323007956E0 /* ViewController.swift */,
+				B271C2601EA6C323007956E0 /* Assets.xcassets */,
+				B271C29F1EA6CF1B007956E0 /* Main.storyboard */,
+				B271C2621EA6C323007956E0 /* LaunchScreen.storyboard */,
+				B271C2651EA6C323007956E0 /* Info.plist */,
+			);
+			path = Howl;
+			sourceTree = "<group>";
+		};
+		B271C26D1EA6C323007956E0 /* HowlTests */ = {
+			isa = PBXGroup;
+			children = (
+				B271C26E1EA6C323007956E0 /* HowlTests.swift */,
+				B271C2701EA6C323007956E0 /* Info.plist */,
+			);
+			path = HowlTests;
+			sourceTree = "<group>";
+		};
+		B271C2781EA6C323007956E0 /* HowlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B271C2791EA6C323007956E0 /* HowlUITests.swift */,
+				B271C27B1EA6C323007956E0 /* Info.plist */,
+			);
+			path = HowlUITests;
+			sourceTree = "<group>";
+		};
+		B271C2871EA6C3C7007956E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B271C2881EA6C3CF007956E0 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B271C2891EA6C401007956E0 /* SignUpFirstViewController.swift */,
+				B271C28B1EA6C41E007956E0 /* SignUpSecondViewController.swift */,
+				B271C28D1EA6C436007956E0 /* SignUpThirdViewController.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		B271C28F1EA6CDF0007956E0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B271C2951EA6CE6E007956E0 /* HomeViewController.swift */,
+				B271C2A11EA6D4B8007956E0 /* PostTableViewCell.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		B271C2911EA6CE06007956E0 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				B271C2971EA6CE7A007956E0 /* NotificationViewController.swift */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		B271C2921EA6CE0E007956E0 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				B271C2991EA6CE87007956E0 /* AddViewController.swift */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		B271C2931EA6CE14007956E0 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				B271C29B1EA6CE92007956E0 /* ChatViewController.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		B271C2941EA6CE56007956E0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B271C29D1EA6CE9C007956E0 /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B271C2551EA6C323007956E0 /* Howl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B271C27E1EA6C323007956E0 /* Build configuration list for PBXNativeTarget "Howl" */;
+			buildPhases = (
+				B271C2521EA6C323007956E0 /* Sources */,
+				B271C2531EA6C323007956E0 /* Frameworks */,
+				B271C2541EA6C323007956E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Howl;
+			productName = Howl;
+			productReference = B271C2561EA6C323007956E0 /* Howl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B271C2691EA6C323007956E0 /* HowlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B271C2811EA6C323007956E0 /* Build configuration list for PBXNativeTarget "HowlTests" */;
+			buildPhases = (
+				B271C2661EA6C323007956E0 /* Sources */,
+				B271C2671EA6C323007956E0 /* Frameworks */,
+				B271C2681EA6C323007956E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B271C26C1EA6C323007956E0 /* PBXTargetDependency */,
+			);
+			name = HowlTests;
+			productName = HowlTests;
+			productReference = B271C26A1EA6C323007956E0 /* HowlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B271C2741EA6C323007956E0 /* HowlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B271C2841EA6C323007956E0 /* Build configuration list for PBXNativeTarget "HowlUITests" */;
+			buildPhases = (
+				B271C2711EA6C323007956E0 /* Sources */,
+				B271C2721EA6C323007956E0 /* Frameworks */,
+				B271C2731EA6C323007956E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B271C2771EA6C323007956E0 /* PBXTargetDependency */,
+			);
+			name = HowlUITests;
+			productName = HowlUITests;
+			productReference = B271C2751EA6C323007956E0 /* HowlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B271C24E1EA6C323007956E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Adhyyan Narang";
+				TargetAttributes = {
+					B271C2551EA6C323007956E0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					B271C2691EA6C323007956E0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B271C2551EA6C323007956E0;
+					};
+					B271C2741EA6C323007956E0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B271C2551EA6C323007956E0;
+					};
+				};
+			};
+			buildConfigurationList = B271C2511EA6C323007956E0 /* Build configuration list for PBXProject "Howl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B271C24D1EA6C323007956E0;
+			productRefGroup = B271C2571EA6C323007956E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B271C2551EA6C323007956E0 /* Howl */,
+				B271C2691EA6C323007956E0 /* HowlTests */,
+				B271C2741EA6C323007956E0 /* HowlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B271C2541EA6C323007956E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B271C2A01EA6CF1B007956E0 /* Main.storyboard in Resources */,
+				B271C2641EA6C323007956E0 /* LaunchScreen.storyboard in Resources */,
+				B271C2611EA6C323007956E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B271C2681EA6C323007956E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B271C2731EA6C323007956E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B271C2521EA6C323007956E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B271C2A21EA6D4B8007956E0 /* PostTableViewCell.swift in Sources */,
+				B271C28C1EA6C41E007956E0 /* SignUpSecondViewController.swift in Sources */,
+				B271C28E1EA6C436007956E0 /* SignUpThirdViewController.swift in Sources */,
+				B271C29E1EA6CE9C007956E0 /* ProfileViewController.swift in Sources */,
+				B271C29A1EA6CE87007956E0 /* AddViewController.swift in Sources */,
+				B271C25C1EA6C323007956E0 /* ViewController.swift in Sources */,
+				B271C2981EA6CE7A007956E0 /* NotificationViewController.swift in Sources */,
+				B271C28A1EA6C401007956E0 /* SignUpFirstViewController.swift in Sources */,
+				B271C25A1EA6C323007956E0 /* AppDelegate.swift in Sources */,
+				B271C29C1EA6CE92007956E0 /* ChatViewController.swift in Sources */,
+				B271C2961EA6CE6E007956E0 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B271C2661EA6C323007956E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B271C26F1EA6C323007956E0 /* HowlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B271C2711EA6C323007956E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B271C27A1EA6C323007956E0 /* HowlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B271C26C1EA6C323007956E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B271C2551EA6C323007956E0 /* Howl */;
+			targetProxy = B271C26B1EA6C323007956E0 /* PBXContainerItemProxy */;
+		};
+		B271C2771EA6C323007956E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B271C2551EA6C323007956E0 /* Howl */;
+			targetProxy = B271C2761EA6C323007956E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B271C2621EA6C323007956E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B271C2631EA6C323007956E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B271C27C1EA6C323007956E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B271C27D1EA6C323007956E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B271C27F1EA6C323007956E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Howl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Howl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B271C2801EA6C323007956E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Howl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Howl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B271C2821EA6C323007956E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HowlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HowlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Howl.app/Howl";
+			};
+			name = Debug;
+		};
+		B271C2831EA6C323007956E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HowlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HowlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Howl.app/Howl";
+			};
+			name = Release;
+		};
+		B271C2851EA6C323007956E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HowlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HowlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Howl;
+			};
+			name = Debug;
+		};
+		B271C2861EA6C323007956E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HowlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HowlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Howl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B271C2511EA6C323007956E0 /* Build configuration list for PBXProject "Howl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B271C27C1EA6C323007956E0 /* Debug */,
+				B271C27D1EA6C323007956E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B271C27E1EA6C323007956E0 /* Build configuration list for PBXNativeTarget "Howl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B271C27F1EA6C323007956E0 /* Debug */,
+				B271C2801EA6C323007956E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B271C2811EA6C323007956E0 /* Build configuration list for PBXNativeTarget "HowlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B271C2821EA6C323007956E0 /* Debug */,
+				B271C2831EA6C323007956E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B271C2841EA6C323007956E0 /* Build configuration list for PBXNativeTarget "HowlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B271C2851EA6C323007956E0 /* Debug */,
+				B271C2861EA6C323007956E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B271C24E1EA6C323007956E0 /* Project object */;
+}
